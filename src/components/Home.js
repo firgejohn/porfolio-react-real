@@ -1,12 +1,13 @@
 // src/components/Home.js
 import React from 'react';
+import './Home.css';
 
 const Home = () => {
   return (
-    <div>
+    <div className="home-container">
       <h1>Welcome to My Portfolio</h1>
-      <p>Hi, I'm Johnathon Nelson.</p>
-      <p>stuff here</p>
+      <p>I'm a web developer passionate about building beautiful, responsive websites.</p>
+      <p className="tagline">"Code is my craft, the web is my canvas."</p>
     </div>
   );
 };

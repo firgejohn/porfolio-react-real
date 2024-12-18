@@ -1,5 +1,6 @@
 // src/components/Contact.js
 import React, { useState } from 'react';
+import './Contact.css';
 
 const Contact = () => {
   const [name, setName] = useState('Johnathon Nelson');
@@ -15,39 +16,30 @@ const Contact = () => {
   return (
     <div>
       <h1>Contact Me</h1>
-      <form onSubmit={handleSubmit}>
-        <div>
-          <input
-            type="text"
-            value={name}
-            onChange={(e) => setName(e.target.value)}
-            placeholder="Your Name"
-            required
-          />
-        </div>
-        <div>
-          <input
-            type="email"
-            value={email}
-            onChange={(e) => setEmail(e.target.value)}
-            placeholder="Your Email"
-            required
-          />
-        </div>
-        <div>
-          <textarea
-            value={message}
-            onChange={(e) => setMessage(e.target.value)}
-            placeholder="Your Message"
-            required
-          />
-        </div>
-        <div>
-          <button type="submit">Send Message</button>
-        </div>
+      <form className="contact-form" onSubmit={handleSubmit}>
+        <input
+          type="text"
+          value={name}
+          onChange={(e) => setName(e.target.value)}
+          placeholder="Your Name"
+          required
+        />
+        <input
+          type="email"
+          value={email}
+          onChange={(e) => setEmail(e.target.value)}
+          placeholder="Your Email"
+          required
+        />
+        <textarea
+          value={message}
+          onChange={(e) => setMessage(e.target.value)}
+          placeholder="Your Message"
+          required
+        />
+        <button type="submit">Send Message</button>
       </form>
-
-      <div>
+      <div className="social-links">
         <p>Or find me on:</p>
         <a href="https://github.com/your-profile" target="_blank" rel="noopener noreferrer">GitHub</a>
         <a href="https://linkedin.com/in/your-profile" target="_blank" rel="noopener noreferrer">LinkedIn</a>
