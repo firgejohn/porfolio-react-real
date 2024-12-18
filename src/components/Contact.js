@@ -1,6 +1,6 @@
 // src/components/Contact.js
 import React, { useState } from 'react';
-import './Contact.css';
+
 
 const Contact = () => {
   const [name, setName] = useState('Johnathon Nelson');
@@ -9,12 +9,11 @@ const Contact = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Here you can add logic to handle form submission, such as sending the data to an API.
     alert('Message sent!');
   };
 
   return (
-    <div>
+    <div className="contact-container">
       <h1>Contact Me</h1>
       <form className="contact-form" onSubmit={handleSubmit}>
         <input

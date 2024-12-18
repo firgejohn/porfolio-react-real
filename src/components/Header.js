@@ -1,12 +1,12 @@
 // src/components/Header.js
 import React from 'react';
 import { Link } from 'react-router-dom';
-import './Header.css';
+
 
 const Header = () => {
   return (
     <header>
-      <h2>My Portfolio</h2>
+      <h2>Johnathon Nelson's Portfolio</h2>
       <nav>
         <ul>
           <li><Link to="/">Home</Link></li>
