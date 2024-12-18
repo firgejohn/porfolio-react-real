@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/firgejohn/porfolio-react-real/static/css/main.e6c13ad2.css",
+    "main.js": "/firgejohn/porfolio-react-real/static/js/main.731079d0.js",
+    "static/js/488.b393e776.chunk.js": "/firgejohn/porfolio-react-real/static/js/488.b393e776.chunk.js",
+    "index.html": "/firgejohn/porfolio-react-real/index.html",
+    "main.e6c13ad2.css.map": "/firgejohn/porfolio-react-real/static/css/main.e6c13ad2.css.map",
+    "main.731079d0.js.map": "/firgejohn/porfolio-react-real/static/js/main.731079d0.js.map",
+    "488.b393e776.chunk.js.map": "/firgejohn/porfolio-react-real/static/js/488.b393e776.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.731079d0.js"
+  ]
+}
