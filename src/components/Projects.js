@@ -12,9 +12,9 @@ const Projects = () => {
           <p>Technologies: Python</p>
         </li>
         <li>
-          <h2>Another Project</h2>
-          <p>Description of another project</p>
-          <p>Technologies: JavaScript, Express, etc.</p>
+          <h2>UP Process roblox game</h2>
+          <p>A series of Mazes and Quizzes designed to help students learn about Unified Process</p>
+          <p>Technologies: Roblox Studio</p>
         </li>
       </ul>
     </div>

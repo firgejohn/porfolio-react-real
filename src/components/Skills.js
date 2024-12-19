@@ -10,12 +10,9 @@ const Skills = () => {
         <li>Python</li>
         <li>C++</li>
         <li>SQL</li>
+        <li>R Studio</li>
         <li>JavaScript</li>
         <li>React</li>
-        
-        
-        
-        {/* Add more technical skills */}
       </ul>
 
       <h2>Non-Technical Skills</h2>
@@ -23,7 +20,6 @@ const Skills = () => {
         <li>Communication</li>
         <li>Problem Solving</li>
         <li>Time Management</li>
-        {/* Add more non-technical skills */}
       </ul>
     </div>
   );
