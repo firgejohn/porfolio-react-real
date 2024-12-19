@@ -3,9 +3,9 @@ import React, { useState } from 'react';
 
 
 const Contact = () => {
-  const [name, setName] = useState('Johnathon Nelson');
-  const [email, setEmail] = useState('firgejohn3@gmail.com');
-  const [message, setMessage] = useState('stuff here');
+  const [name, setName] = useState('First Name');
+  const [email, setEmail] = useState('email@gmail.com');
+  const [message, setMessage] = useState('Your Message');
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -13,7 +13,7 @@ const Contact = () => {
   };
 
   return (
-    <div className="contact-container">
+    <div className="container contact-container">
       <h1>Contact Me</h1>
       <form className="contact-form" onSubmit={handleSubmit}>
         <input
@@ -40,8 +40,8 @@ const Contact = () => {
       </form>
       <div className="social-links">
         <p>Or find me on:</p>
-        <a href="https://github.com/your-profile" target="_blank" rel="noopener noreferrer">GitHub</a>
-        <a href="https://linkedin.com/in/your-profile" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        <a href="https://github.com/firgejohn" target="_blank" rel="noopener noreferrer">GitHub</a>
+        <a href="https://www.linkedin.com/in/john-nelson-b0a71a342/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
       </div>
     </div>
   );

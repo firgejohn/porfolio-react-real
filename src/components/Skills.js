@@ -7,11 +7,14 @@ const Skills = () => {
       <h1>My Skills</h1>
       <h2>Technical Skills</h2>
       <ul>
+        <li>Python</li>
+        <li>C++</li>
+        <li>SQL</li>
         <li>JavaScript</li>
         <li>React</li>
-        <li>Node.js</li>
-        <li>CSS</li>
-        <li>HTML</li>
+        
+        
+        
         {/* Add more technical skills */}
       </ul>
 

@@ -7,11 +7,10 @@ const Projects = () => {
       <h1>My Projects</h1>
       <ul>
         <li>
-          <h2>Project Name</h2>
-          <p>Description of the project</p>
-          <p>Technologies: React, Node.js, etc.</p>
+          <h2>Checkers Coach</h2>
+          <p>An algorithm that uses Alpha Beta pruing to reccomend the best moves to a player in a checkers game.</p>
+          <p>Technologies: Python</p>
         </li>
-        {/* Add more projects below */}
         <li>
           <h2>Another Project</h2>
           <p>Description of another project</p>
