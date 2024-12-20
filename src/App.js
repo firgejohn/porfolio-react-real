@@ -1,4 +1,3 @@
-// src/App.js
 import './App.css';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Header from './components/Header';
@@ -19,6 +18,7 @@ function App() {
           <Route path="/projects" element={<Projects />} />
           <Route path="/skills" element={<Skills />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="*" element={<Home />} /> {/* Fallback for unmatched routes */}
         </Routes>
       </div>
     </Router>

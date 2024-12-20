@@ -1,11 +1,10 @@
 // src/components/Contact.js
 import React, { useState } from 'react';
 
-
 const Contact = () => {
-  const [name, setName] = useState('First Name');
-  const [email, setEmail] = useState('email@gmail.com');
-  const [message, setMessage] = useState('Your Message');
+  const [name, setName] = useState('');
+  const [email, setEmail] = useState('');
+  const [message, setMessage] = useState('');
 
   const handleSubmit = (e) => {
     e.preventDefault();

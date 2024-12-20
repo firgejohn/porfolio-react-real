@@ -11,8 +11,6 @@ const Skills = () => {
         <li>C++</li>
         <li>SQL</li>
         <li>R Studio</li>
-        <li>JavaScript</li>
-        <li>React</li>
       </ul>
 
       <h2>Non-Technical Skills</h2>
